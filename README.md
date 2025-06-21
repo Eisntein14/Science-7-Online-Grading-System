@@ -66,6 +66,7 @@
     .hidden {
       display: none;
     }
+    #admin { display: none; } /* Hides the teacher dashboard */
     @media print {
       body * {
         visibility: hidden;
@@ -88,7 +89,6 @@
   <nav>
     <a href="#">Home</a>
     <a href="#grades">Grades</a>
-    <a href="#admin">Admin</a>
     <a href="#help">Help</a>
     <a href="#logout">Logout</a>
   </nav>
